@@ -1,4 +1,4 @@
-from models.db.py import get_connection
+from models.db import get_connection
 
 class Usuario:
     def __init__(self, id, nome, login, senha, perfil):
