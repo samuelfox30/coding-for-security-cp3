@@ -29,4 +29,4 @@ def cadastrar_usuario():
     return auth_controller.processar_cadastro()
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
